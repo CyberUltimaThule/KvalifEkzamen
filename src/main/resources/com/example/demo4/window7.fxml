@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<VBox alignment="CENTER" spacing="20.0" xmlns="http://javafx.com/javafx/11.0.2" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.demo4.window7Controller">
+    <padding>
+        <Insets bottom="20.0" left="20.0" right="20.0" top="20.0" />
+    </padding>
+
+    <Label fx:id="welcomeText" />
+   <Pane prefHeight="200.0" prefWidth="200.0">
+      <children>
+         <Pane layoutY="-43.0" prefHeight="243.0" prefWidth="200.0">
+            <children>
+               <Button fx:id="bnt" layoutX="41.0" layoutY="192.0" mnemonicParsing="false" onAction="#initialize" text="Отправить данные" />
+               <TextField fx:id="tf" layoutX="26.0" layoutY="14.0" />
+               <TextField fx:id="tf2" layoutX="25.0" layoutY="75.0" />
+               <Label layoutX="26.0" layoutY="58.0" text="Верхний предел" />
+               <Label layoutX="26.0" layoutY="-8.0" text="Нижний предел" />
+               <TextField fx:id="tf3" layoutX="26.0" layoutY="139.0" prefHeight="25.0" prefWidth="149.0" />
+               <Label layoutX="26.0" layoutY="116.0" text="Значение интеграла" />
+               <Button fx:id="bt" layoutX="74.0" layoutY="217.0" mnemonicParsing="false" onAction="#changeWindow2" text="Далее" textAlignment="CENTER" />
+               <Label fx:id="lab" layoutX="-3.0" layoutY="175.0" textFill="#d70d0d" />
+            </children></Pane>
+      </children>
+   </Pane>
+</VBox>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<VBox alignment="CENTER" prefHeight="399.0" prefWidth="399.0" spacing="20.0" xmlns="http://javafx.com/javafx/11.0.2" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.demo4.window3Controller">
+    <padding>
+        <Insets bottom="20.0" left="20.0" right="20.0" top="20.0" />
+    </padding>
+   <Pane prefHeight="200.0" prefWidth="200.0">
+      <children>
+         <Pane prefHeight="282.0" prefWidth="359.0">
+            <children>
+               <Button fx:id="btk" layoutX="126.0" layoutY="159.0" mnemonicParsing="false" onAction="#initialize" prefHeight="25.0" prefWidth="107.0" text="Авторизоваться" />
+               <PasswordField fx:id="pf" layoutX="99.0" layoutY="88.0" />
+               <Label fx:id="welcomeText4" layoutX="99.0" layoutY="29.0" text="Логин" />
+               <Label fx:id="welcomeText1" layoutX="99.0" layoutY="71.0" text="Пароль" />
+               <TextField fx:id="tf" layoutX="99.0" layoutY="46.0" />
+            
+                <Label fx:id="welcomeText" layoutX="137.0" layoutY="6.0" text="Авторизация" />
+               <Label fx:id="welcomeText3" layoutX="111.0" layoutY="231.0" text="!Пароль админа:adminus" />
+               <Label fx:id="welcomeText2" layoutX="121.0" layoutY="214.0" text="!Логин админа:admin" />
+               <Label fx:id="lab" layoutX="112.0" layoutY="124.0" textAlignment="JUSTIFY" textFill="#e80808" wrapText="true" />
+            </children></Pane>
+      </children>
+   </Pane>
+</VBox>
